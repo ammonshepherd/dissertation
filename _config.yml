@@ -1,0 +1,12 @@
+markdown: redcarpet
+highlighter: rouge
+
+permalink: pretty
+
+url: http://nazitunnels.org
+baseurl: /dissertation
+
+author:
+  name:           'Ammon Shepherd'
+  url:            https://mossiso.com
+

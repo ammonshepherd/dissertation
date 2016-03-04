@@ -1,0 +1,19 @@
+<div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="{{site.baseurl}}/images/sidebar-button.png">
+  </div>
+  <div id="page-info">
+    <div id="cover-photo-container">
+      <img id="cover-photo" src="{{site.baseurl}}/images/{{ page.title }}-cover.jpg">
+    </div>
+    <div id="info-container">
+      <h1 id="title">{{ page.title }} <span id="sub-title">{{ page.sub-title }}</span></h1>
+      
+    </div>
+  </div>
+
+  <div class="page">
+    {{ content }}
+  </div>
+  {% include colophon.html %}
+</div>
