@@ -10,3 +10,4 @@ author:
   name:           'Ammon Shepherd'
   url:            https://mossiso.com
 
+include: [error_pages, .htaccess]
