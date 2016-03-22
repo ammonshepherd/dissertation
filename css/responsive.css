@@ -1,5 +1,5 @@
 @media (max-width:1309px) {
-  #cover-photo, .page img {
+  #cover-photo, .page img, #image img {
     max-width: 95%;
     height: auto;
   }
