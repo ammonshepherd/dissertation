@@ -10,7 +10,7 @@ module Jekyll
       if(name.is_a? Integer)
         return name.to_s
       end
-      return name.downcase.strip.gsub(' ', '-').gsub(/[^\w.-]/, '')
+      return name.strip.gsub(' ', '-').gsub(/[^\w.-]/, '')
     end
   end
 
