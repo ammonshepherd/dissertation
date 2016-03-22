@@ -61,21 +61,16 @@ a:hover {
 }
 
 #abstract {
-  font-family: 'Raleway', Arial, sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.8;
   text-align: left;
-  max-width: 725px;
-  margin: auto;
+  line-height: 24px;
   margin-bottom: 3em;
   clear: both;
 }
 
 #diss-info {
-  max-width: 725px;
-  margin: auto;
   line-height: 24px;
   clear: both;
+  padding-left: 1em;
 }
 
 #diss-info p {
@@ -172,7 +167,6 @@ a:hover {
 
 #info-container {
   margin-top: 3em;
-  padding-left: 3em;
 }
 
 #image img {
