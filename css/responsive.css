@@ -1,6 +1,7 @@
 @media (max-width:1309px) {
-  #cover-photo {
+  #cover-photo, .page img {
     max-width: 95%;
+    height: auto;
   }
 
   .header {

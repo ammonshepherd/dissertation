@@ -79,7 +79,6 @@ a:hover {
 }
 
 #diss-info p {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
   font-size: 17px;
   margin-bottom: 1.45em;
 }
@@ -198,7 +197,7 @@ a:hover {
 }
 
 .post, 
-.page {
+.page, #abstract {
   line-height: 24px;
   max-width: 725px;
   clear: both;
