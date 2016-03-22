@@ -1,7 +1,13 @@
 
   <div class="colophon">
     <p>
-      <span id="pub-date">Last edited on {{ site.time | date_to_string }}</span>
+      <span id="pub-date">Last edited on 
+        {% if page.date != null %}
+          {{ page.date | date_to_string }}
+        {% else %}
+          {{ site.time | date_to_string }}
+        {% endif %}
+      </span>
     </p>
   </div>
 
