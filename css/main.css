@@ -24,6 +24,10 @@ body {
   overflow: hidden;
 }
 
+h1,h2,h3 {
+  line-height: 1.3em;
+}
+
 a {
   color: #884100;
   text-decoration: none;
@@ -167,6 +171,13 @@ a:hover {
 
 #info-container {
   margin-top: 3em;
+  padding-left: 3em;
+}
+
+#image img {
+  border: 2px solid rgba(150,150,150,0.75);
+  margin: 2em;
+  max-width: 600px;
 }
 
 #title {
@@ -189,6 +200,7 @@ a:hover {
   line-height: 24px;
   max-width: 725px;
   clear: both;
+  padding-left: 2em;
 }
 
 .post h2, 
@@ -294,14 +306,15 @@ tbody tr:nth-child(odd) th {
 
 .sidebar {
   float: left;
-  width: 14%;
+  width: 17%;
   padding-left: 5em;
   padding-right: 2.125em;
   border-right: 1px solid #e7e7e7;
   background-color: #eee;
 }
 
-.content {
+/*.content {*/
+#con-tent {
   padding-left: 2.125em;
 }
 
@@ -364,6 +377,7 @@ tbody tr:nth-child(odd) th {
   margin-top: 1.5em;
   margin-bottom: 1.45em;
   border-top: 1px dotted #e7e7e7;
+  padding-left: 2em;
 }
 
 .colophon p {

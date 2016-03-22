@@ -1,0 +1,38 @@
+---
+layout: default
+title: Home
+date: 2016-03-03
+order: 0
+---
+
+<div class="content center" id="home">
+  <div id="sidebar-button">
+    <img src="{{site.baseurl}}/images/sidebar-button.png">
+  </div>
+  <div id="page-info">
+    <div id="cover-photo-container">
+      <img id="cover-photo" src="{{site.baseurl}}/images/GroupB-Map.jpg">
+    </div>
+    <div id="info-container">
+      <h1 id="title" class="center">Primary Source Repository</h1>
+    </div>
+
+    <div id="abstract">
+      <ul>
+      {% for hash in site.data.docs %}
+        {% assign doc = hash[] %}
+        <li>
+          <a href="files/{{ doc.FileID }}/">{{ doc.Title }}</a>
+        </li>
+      {% endfor %}
+      </ul> 
+    </div>
+
+    <div id="diss-info">
+
+    <div>
+
+  </div>
+
+  {% include colophon.html %}
+</div>

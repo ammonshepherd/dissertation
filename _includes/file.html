@@ -1,0 +1,38 @@
+<div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="{{site.baseurl}}/images/sidebar-button.png">
+  </div>
+  <div id="page-info">
+    <div id="cover-photo-container">
+      <img id="cover-photo" src="{{site.baseurl}}/images/GroupB-Map.jpg">
+    </div>
+    <div id="info-container">
+      <h2>{{ page.Title }}</h2>
+      <h3>{{ page.Author }}</h3>
+      <ul>
+        {% if page.Title != null %} <li>Title: {{ page.Title }}</li> {% endif %}
+        {% if page.Author != null %} <li>Author: {{ page.Author }}</li> {% endif %}
+        {% if page.Description != null %} <li>Description: {{ page.Description }}</li> {% endif %}
+        {% if page.CallNumber != null %} <li>Call Number: {{ page.CallNumber }}</li> {% endif %}
+        {% if page.Archive != null %} <li>Archive: {{ page.Archive }}</li> {% endif %}
+        {% if page.Notes != null %} <li>Notes: {{ page.Notes }}</li> {% endif %}
+        {% if page.Transcription != null %} <li>Transcription: {{ page.Transcription }}</li> {% endif %}
+        {% if page.FileName != null %} <li>File:  <a href="{{ site.baseurl }}/repository/files/{{ page.FileName }}">{{ page.FileName }}</a></li> {% endif %}
+      </ul>
+      {% if page.FileName != null %}
+      <div id="image">
+        <a href="{{ site.baseurl }}/repository/files/{{ page.FileName }}">
+          <img src="{{ site.baseurl }}/repository/files/{{ page.FileName }}.png" />
+        </a>
+      </div>
+      {% endif %}
+    </div>
+
+  </div>
+
+  {% include colophon.html %}
+</div>
+
+        
+
+

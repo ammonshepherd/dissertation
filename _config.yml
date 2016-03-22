@@ -11,3 +11,10 @@ author:
   url:            https://mossiso.com
 
 include: [error_pages, .htaccess]
+
+page_gen_dirs: true
+page_gen:
+  - data: 'docs'
+    name: 'FileID'
+    template: 'file'
+    dir: 'repository/files'
