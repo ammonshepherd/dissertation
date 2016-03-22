@@ -72,6 +72,8 @@ a:hover {
 }
 
 #diss-info {
+  max-width: 725px;
+  margin: auto;
   line-height: 24px;
   clear: both;
 }
