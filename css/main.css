@@ -216,6 +216,12 @@ a:hover {
   border: none;
 }
 
+.pic {
+  border: 2px solid rgba(150,150,150,0.75);
+  margin: 2em;
+  max-width: 600px;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;
